@@ -1,0 +1,19 @@
+#Options +FollowSymLinks
+
+#IndexIgnore */*
+#RewriteEngine on
+
+# if a directory or a file exists, use i
+#RewriteCond %{SCRIPT_FILENAME} !-f
+#RewriteCond %{SCRIPT_FILENAME} !-d
+#RewriteRule !\.(js|ico|gif|jpg|png|css|html)$ index.php
+
+# otherwise forward it to index.php
+#RewriteRule . index.php
+
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+<IfModule mod_charset.c>
+    CharsetSourceEnc utf-8
+    CharsetDefault utf-8
+</IfModule>
