@@ -1,3 +1,3 @@
 [submodule "deploy/git"]
 	path = deploy/git
-	url = https://github.com/mihan007/php-webhook.git
+	url = git@github.com:mihan007/php-webhook.git
