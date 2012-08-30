@@ -1,3 +1,6 @@
 [submodule "deploy/git"]
 	path = deploy/git
 	url = git@github.com:mihan007/php-webhook.git
+[submodule "forex"]
+	path = forex
+	url = git@github.com:mihan007/forex4you.git
